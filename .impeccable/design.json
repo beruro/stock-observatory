@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T07:50:23.251022Z",
+  "title": "Design System: 股票研究台",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "审阅蓝",
+        "tonalRamp": [
+          "oklch(15.0% 0.0400 266.52)",
+          "oklch(26.0% 0.0880 266.52)",
+          "oklch(37.0% 0.1280 266.52)",
+          "oklch(49.0% 0.1600 266.52)",
+          "oklch(61.0% 0.1600 266.52)",
+          "oklch(73.0% 0.1280 266.52)",
+          "oklch(85.0% 0.0800 266.52)",
+          "oklch(95.0% 0.0240 266.52)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "审阅蓝悬停",
+        "tonalRamp": [
+          "oklch(15.0% 0.0360 266.32)",
+          "oklch(26.0% 0.0793 266.32)",
+          "oklch(37.0% 0.1153 266.32)",
+          "oklch(49.0% 0.1442 266.32)",
+          "oklch(61.0% 0.1442 266.32)",
+          "oklch(73.0% 0.1153 266.32)",
+          "oklch(85.0% 0.0721 266.32)",
+          "oklch(95.0% 0.0216 266.32)"
+        ]
+      },
+      "nav": {
+        "role": "primary",
+        "displayName": "蓝墨导航",
+        "tonalRamp": [
+          "oklch(15.0% 0.0180 262.37)",
+          "oklch(26.0% 0.0396 262.37)",
+          "oklch(37.0% 0.0576 262.37)",
+          "oklch(49.0% 0.0720 262.37)",
+          "oklch(61.0% 0.0720 262.37)",
+          "oklch(73.0% 0.0576 262.37)",
+          "oklch(85.0% 0.0360 262.37)",
+          "oklch(95.0% 0.0108 262.37)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "正文墨色",
+        "tonalRamp": [
+          "oklch(15.0% 0.0102 260.33)",
+          "oklch(26.0% 0.0224 260.33)",
+          "oklch(37.0% 0.0326 260.33)",
+          "oklch(49.0% 0.0408 260.33)",
+          "oklch(61.0% 0.0408 260.33)",
+          "oklch(73.0% 0.0326 260.33)",
+          "oklch(85.0% 0.0204 260.33)",
+          "oklch(95.0% 0.0061 260.33)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "辅助灰蓝",
+        "tonalRamp": [
+          "oklch(15.0% 0.0095 260.93)",
+          "oklch(26.0% 0.0209 260.93)",
+          "oklch(37.0% 0.0303 260.93)",
+          "oklch(49.0% 0.0379 260.93)",
+          "oklch(61.0% 0.0379 260.93)",
+          "oklch(73.0% 0.0303 260.93)",
+          "oklch(85.0% 0.0190 260.93)",
+          "oklch(95.0% 0.0057 260.93)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "页面底纸",
+        "tonalRamp": [
+          "oklch(15.0% 0.0016 255.47)",
+          "oklch(26.0% 0.0034 255.47)",
+          "oklch(37.0% 0.0050 255.47)",
+          "oklch(49.0% 0.0062 255.47)",
+          "oklch(61.0% 0.0062 255.47)",
+          "oklch(73.0% 0.0050 255.47)",
+          "oklch(85.0% 0.0031 255.47)",
+          "oklch(95.0% 0.0009 255.47)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "正文纸",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 89.88)",
+          "oklch(26.0% 0.0000 89.88)",
+          "oklch(37.0% 0.0000 89.88)",
+          "oklch(49.0% 0.0000 89.88)",
+          "oklch(61.0% 0.0000 89.88)",
+          "oklch(73.0% 0.0000 89.88)",
+          "oklch(85.0% 0.0000 89.88)",
+          "oklch(95.0% 0.0000 89.88)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "分隔边线",
+        "tonalRamp": [
+          "oklch(15.0% 0.0030 259.82)",
+          "oklch(26.0% 0.0067 259.82)",
+          "oklch(37.0% 0.0097 259.82)",
+          "oklch(49.0% 0.0121 259.82)",
+          "oklch(61.0% 0.0121 259.82)",
+          "oklch(73.0% 0.0097 259.82)",
+          "oklch(85.0% 0.0061 259.82)",
+          "oklch(95.0% 0.0018 259.82)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "控件边线",
+        "tonalRamp": [
+          "oklch(15.0% 0.0057 260.72)",
+          "oklch(26.0% 0.0126 260.72)",
+          "oklch(37.0% 0.0184 260.72)",
+          "oklch(49.0% 0.0229 260.72)",
+          "oklch(61.0% 0.0229 260.72)",
+          "oklch(73.0% 0.0184 260.72)",
+          "oklch(85.0% 0.0115 260.72)",
+          "oklch(95.0% 0.0034 260.72)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "焦点蓝",
+        "tonalRamp": [
+          "oklch(15.0% 0.0354 265.73)",
+          "oklch(26.0% 0.0778 265.73)",
+          "oklch(37.0% 0.1131 265.73)",
+          "oklch(49.0% 0.1414 265.73)",
+          "oklch(61.0% 0.1414 265.73)",
+          "oklch(73.0% 0.1131 265.73)",
+          "oklch(85.0% 0.0707 265.73)",
+          "oklch(95.0% 0.0212 265.73)"
+        ]
+      },
+      "up": {
+        "role": "secondary",
+        "displayName": "上涨红",
+        "tonalRamp": [
+          "oklch(15.0% 0.0400 21.21)",
+          "oklch(26.0% 0.0880 21.21)",
+          "oklch(37.0% 0.1280 21.21)",
+          "oklch(49.0% 0.1600 21.21)",
+          "oklch(61.0% 0.1600 21.21)",
+          "oklch(73.0% 0.1280 21.21)",
+          "oklch(85.0% 0.0800 21.21)",
+          "oklch(95.0% 0.0240 21.21)"
+        ]
+      },
+      "down": {
+        "role": "secondary",
+        "displayName": "下跌绿",
+        "tonalRamp": [
+          "oklch(15.0% 0.0244 170.45)",
+          "oklch(26.0% 0.0537 170.45)",
+          "oklch(37.0% 0.0781 170.45)",
+          "oklch(49.0% 0.0977 170.45)",
+          "oklch(61.0% 0.0977 170.45)",
+          "oklch(73.0% 0.0781 170.45)",
+          "oklch(85.0% 0.0488 170.45)",
+          "oklch(95.0% 0.0147 170.45)"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "删除红",
+        "tonalRamp": [
+          "oklch(15.0% 0.0400 21.90)",
+          "oklch(26.0% 0.0880 21.90)",
+          "oklch(37.0% 0.1280 21.90)",
+          "oklch(49.0% 0.1600 21.90)",
+          "oklch(61.0% 0.1600 21.90)",
+          "oklch(73.0% 0.1280 21.90)",
+          "oklch(85.0% 0.0800 21.90)",
+          "oklch(95.0% 0.0240 21.90)"
+        ]
+      },
+      "nav-up": {
+        "role": "secondary",
+        "displayName": "导航上涨红",
+        "tonalRamp": [
+          "oklch(15.0% 0.0345 16.38)",
+          "oklch(26.0% 0.0758 16.38)",
+          "oklch(37.0% 0.1103 16.38)",
+          "oklch(49.0% 0.1379 16.38)",
+          "oklch(61.0% 0.1379 16.38)",
+          "oklch(73.0% 0.1103 16.38)",
+          "oklch(85.0% 0.0689 16.38)",
+          "oklch(95.0% 0.0207 16.38)"
+        ]
+      },
+      "nav-down": {
+        "role": "secondary",
+        "displayName": "导航下跌绿",
+        "tonalRamp": [
+          "oklch(15.0% 0.0273 172.04)",
+          "oklch(26.0% 0.0600 172.04)",
+          "oklch(37.0% 0.0873 172.04)",
+          "oklch(49.0% 0.1091 172.04)",
+          "oklch(61.0% 0.1091 172.04)",
+          "oklch(73.0% 0.0873 172.04)",
+          "oklch(85.0% 0.0545 172.04)",
+          "oklch(95.0% 0.0164 172.04)"
+        ]
+      },
+      "nav-text": {
+        "role": "neutral",
+        "displayName": "导航正文",
+        "tonalRamp": [
+          "oklch(15.0% 0.0033 262.38)",
+          "oklch(26.0% 0.0073 262.38)",
+          "oklch(37.0% 0.0106 262.38)",
+          "oklch(49.0% 0.0132 262.38)",
+          "oklch(61.0% 0.0132 262.38)",
+          "oklch(73.0% 0.0106 262.38)",
+          "oklch(85.0% 0.0066 262.38)",
+          "oklch(95.0% 0.0020 262.38)"
+        ]
+      },
+      "nav-muted": {
+        "role": "neutral",
+        "displayName": "导航辅助",
+        "tonalRamp": [
+          "oklch(15.0% 0.0105 260.93)",
+          "oklch(26.0% 0.0231 260.93)",
+          "oklch(37.0% 0.0336 260.93)",
+          "oklch(49.0% 0.0420 260.93)",
+          "oklch(61.0% 0.0420 260.93)",
+          "oklch(73.0% 0.0336 260.93)",
+          "oklch(85.0% 0.0210 260.93)",
+          "oklch(95.0% 0.0063 260.93)"
+        ]
+      },
+      "nav-selected": {
+        "role": "neutral",
+        "displayName": "导航选中",
+        "tonalRamp": [
+          "oklch(15.0% 0.0182 259.00)",
+          "oklch(26.0% 0.0401 259.00)",
+          "oklch(37.0% 0.0584 259.00)",
+          "oklch(49.0% 0.0730 259.00)",
+          "oklch(61.0% 0.0730 259.00)",
+          "oklch(73.0% 0.0584 259.00)",
+          "oklch(85.0% 0.0365 259.00)",
+          "oklch(95.0% 0.0109 259.00)"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "导航悬停",
+        "tonalRamp": [
+          "oklch(15.0% 0.0189 260.80)",
+          "oklch(26.0% 0.0417 260.80)",
+          "oklch(37.0% 0.0606 260.80)",
+          "oklch(49.0% 0.0757 260.80)",
+          "oklch(61.0% 0.0757 260.80)",
+          "oklch(73.0% 0.0606 260.80)",
+          "oklch(85.0% 0.0379 260.80)",
+          "oklch(95.0% 0.0114 260.80)"
+        ]
+      },
+      "research-surface": {
+        "role": "secondary",
+        "displayName": "研究纸页",
+        "tonalRamp": [
+          "oklch(15.0% 0.0049 270.21)",
+          "oklch(26.0% 0.0108 270.21)",
+          "oklch(37.0% 0.0157 270.21)",
+          "oklch(49.0% 0.0196 270.21)",
+          "oklch(61.0% 0.0196 270.21)",
+          "oklch(73.0% 0.0157 270.21)",
+          "oklch(85.0% 0.0098 270.21)",
+          "oklch(95.0% 0.0029 270.21)"
+        ]
+      },
+      "research-ink": {
+        "role": "secondary",
+        "displayName": "研究墨色",
+        "tonalRamp": [
+          "oklch(15.0% 0.0265 265.75)",
+          "oklch(26.0% 0.0584 265.75)",
+          "oklch(37.0% 0.0850 265.75)",
+          "oklch(49.0% 0.1062 265.75)",
+          "oklch(61.0% 0.1062 265.75)",
+          "oklch(73.0% 0.0850 265.75)",
+          "oklch(85.0% 0.0531 265.75)",
+          "oklch(95.0% 0.0159 265.75)"
+        ]
+      },
+      "table-surface": {
+        "role": "neutral",
+        "displayName": "表头底纸",
+        "tonalRamp": [
+          "oklch(15.0% 0.0011 258.32)",
+          "oklch(26.0% 0.0025 258.32)",
+          "oklch(37.0% 0.0036 258.32)",
+          "oklch(49.0% 0.0045 258.32)",
+          "oklch(61.0% 0.0045 258.32)",
+          "oklch(73.0% 0.0036 258.32)",
+          "oklch(85.0% 0.0023 258.32)",
+          "oklch(95.0% 0.0007 258.32)"
+        ]
+      },
+      "outlook-surface": {
+        "role": "secondary",
+        "displayName": "观察底色",
+        "tonalRamp": [
+          "oklch(15.0% 0.0041 262.75)",
+          "oklch(26.0% 0.0089 262.75)",
+          "oklch(37.0% 0.0130 262.75)",
+          "oklch(49.0% 0.0162 262.75)",
+          "oklch(61.0% 0.0162 262.75)",
+          "oklch(73.0% 0.0130 262.75)",
+          "oklch(85.0% 0.0081 262.75)",
+          "oklch(95.0% 0.0024 262.75)"
+        ]
+      },
+      "outlook-ink": {
+        "role": "secondary",
+        "displayName": "观察文字",
+        "tonalRamp": [
+          "oklch(15.0% 0.0105 258.82)",
+          "oklch(26.0% 0.0230 258.82)",
+          "oklch(37.0% 0.0335 258.82)",
+          "oklch(49.0% 0.0419 258.82)",
+          "oklch(61.0% 0.0419 258.82)",
+          "oklch(73.0% 0.0335 258.82)",
+          "oklch(85.0% 0.0209 258.82)",
+          "oklch(95.0% 0.0063 258.82)"
+        ]
+      },
+      "stronger-surface": {
+        "role": "secondary",
+        "displayName": "逻辑增强底色",
+        "tonalRamp": [
+          "oklch(15.0% 0.0062 298.60)",
+          "oklch(26.0% 0.0136 298.60)",
+          "oklch(37.0% 0.0198 298.60)",
+          "oklch(49.0% 0.0247 298.60)",
+          "oklch(61.0% 0.0247 298.60)",
+          "oklch(73.0% 0.0198 298.60)",
+          "oklch(85.0% 0.0124 298.60)",
+          "oklch(95.0% 0.0037 298.60)"
+        ]
+      },
+      "stronger-ink": {
+        "role": "secondary",
+        "displayName": "逻辑增强文字",
+        "tonalRamp": [
+          "oklch(15.0% 0.0330 300.28)",
+          "oklch(26.0% 0.0725 300.28)",
+          "oklch(37.0% 0.1055 300.28)",
+          "oklch(49.0% 0.1319 300.28)",
+          "oklch(61.0% 0.1319 300.28)",
+          "oklch(73.0% 0.1055 300.28)",
+          "oklch(85.0% 0.0659 300.28)",
+          "oklch(95.0% 0.0198 300.28)"
+        ]
+      },
+      "weaker-surface": {
+        "role": "secondary",
+        "displayName": "逻辑减弱底色",
+        "tonalRamp": [
+          "oklch(15.0% 0.0067 74.75)",
+          "oklch(26.0% 0.0147 74.75)",
+          "oklch(37.0% 0.0214 74.75)",
+          "oklch(49.0% 0.0267 74.75)",
+          "oklch(61.0% 0.0267 74.75)",
+          "oklch(73.0% 0.0214 74.75)",
+          "oklch(85.0% 0.0134 74.75)",
+          "oklch(95.0% 0.0040 74.75)"
+        ]
+      },
+      "weaker-ink": {
+        "role": "secondary",
+        "displayName": "逻辑减弱文字",
+        "tonalRamp": [
+          "oklch(15.0% 0.0226 70.41)",
+          "oklch(26.0% 0.0496 70.41)",
+          "oklch(37.0% 0.0722 70.41)",
+          "oklch(49.0% 0.0903 70.41)",
+          "oklch(61.0% 0.0903 70.41)",
+          "oklch(73.0% 0.0722 70.41)",
+          "oklch(85.0% 0.0451 70.41)",
+          "oklch(95.0% 0.0135 70.41)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "headline",
+        "purpose": "股票名称。"
+      },
+      "title": {
+        "displayName": "title",
+        "purpose": "面板与记录标题。"
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "基础界面正文。"
+      },
+      "control": {
+        "displayName": "control",
+        "purpose": "操作按钮。"
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "字段与辅助标签。"
+      },
+      "price": {
+        "displayName": "price",
+        "purpose": "股票价格。"
+      },
+      "index": {
+        "displayName": "index",
+        "purpose": "指数主数值。"
+      },
+      "note": {
+        "displayName": "note",
+        "purpose": "多行研究正文。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "toast",
+        "value": "0 8px 28px #15294b1a",
+        "purpose": "浮动状态通知；普通正文面板不使用。"
+      },
+      {
+        "name": "selected-segment",
+        "value": "0 1px 3px #1d293d12",
+        "purpose": "分段控件中的白色选中项。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "refresh-spin",
+        "value": "spin 1s linear infinite",
+        "purpose": "正在刷新图标。"
+      },
+      {
+        "name": "toast-entry",
+        "value": "toast-in .18s ease-out",
+        "purpose": "通知从下方 8px 与 opacity .8 进入。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none!important;scroll-behavior:auto!important;transition:none!important",
+        "purpose": "prefers-reduced-motion: reduce 时应用。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1190px"
+      },
+      {
+        "name": "stacked-max",
+        "value": "800px"
+      },
+      {
+        "name": "phone-max",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主要按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "保存与开始复盘使用的主要动作。",
+      "html": "<button class=\"ds-primary\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg>保存记录</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #cbd4e3;border-radius:7px;padding:8px 13px;font-size:13px;font-weight:550;min-height:36px;cursor:pointer;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;background:var(--accent,#385ac0);border-color:var(--accent,#385ac0);color:#fff}.ds-primary:hover:not(:disabled){background:#2b489e}.ds-primary:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}.ds-primary:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "次要按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "刷新与取消等次要操作。",
+      "html": "<button class=\"ds-secondary\">刷新数据</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #cbd4e3;border-radius:7px;padding:8px 13px;font-size:13px;font-weight:550;min-height:36px;cursor:pointer;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;background:#fff;color:var(--ink,#1d293d)}.ds-secondary:hover:not(:disabled){background:#edf2fb;border-color:#8b9dc5}.ds-secondary:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}.ds-secondary:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "文字动作",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "低强调的编辑、数据表与草稿动作。",
+      "html": "<button class=\"ds-text\">填入数据草稿</button>",
+      "css": ".ds-text{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;display:inline-flex;gap:5px;align-items:center;border:0;background:none;color:var(--accent,#385ac0);padding:2px 0;font-size:12px;cursor:pointer}.ds-text:hover{text-decoration:underline;text-underline-offset:3px}.ds-text:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}.ds-text:disabled{opacity:.5;cursor:not-allowed}"
+    },
+    {
+      "name": "研究字段",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "具有可见标签及全不透明辅助色占位文字。",
+      "html": "<label class=\"ds-field-label\">标题<input class=\"ds-field\" placeholder=\"这次复盘最重要的判断\" /></label>",
+      "css": ".ds-field-label{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;display:flex;flex-direction:column;gap:8px;font-size:12px;font-weight:550;color:var(--ink,#1d293d)}.ds-field{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;width:100%;border:1px solid #cbd4e3;border-radius:6px;padding:10px 12px;background:#fff;color:var(--ink,#1d293d);font-size:13px;font-weight:400;caret-color:var(--accent,#385ac0)}.ds-field::placeholder{color:var(--muted,#637086);opacity:1}.ds-field:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}"
+    },
+    {
+      "name": "自选导航",
+      "kind": "nav",
+      "refersTo": "watch-selected",
+      "description": "固定深蓝导航中的选择行，手机转为横向列表。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"自选股票\"><button class=\"ds-watch\" aria-current=\"true\"><span><strong>隆基绿能</strong><small>601012</small></span><span><b>11.76</b><small>+2.26%</small></span></button></nav>",
+      "css": ".ds-nav{background:var(--nav,#182b50);padding:12px;border-radius:0;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;}.ds-watch{font:inherit;display:flex;justify-content:space-between;gap:5px;padding:14px 24px 14px 12px;width:100%;border:0;border-radius:8px;background:transparent;color:#eef3fc;text-align:left;cursor:pointer;font-variant-numeric:tabular-nums}.ds-watch:hover{background:#243b63}.ds-watch[aria-current=true]{background:#304970}.ds-watch>span{display:flex;flex-direction:column;gap:2px}.ds-watch>span:last-child{color:#ff8d95;text-align:right;font-size:13px}.ds-watch strong{font-size:14px;font-weight:600}.ds-watch small{font-size:11px}.ds-watch>span:first-child small{color:#bbcae0}.ds-watch:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}"
+    },
+    {
+      "name": "判断标签",
+      "kind": "chip",
+      "refersTo": "outlook-observe",
+      "description": "研究逻辑状态与行情方向分开编码；标签自身无交互。",
+      "html": "<div class=\"ds-outlooks\"><span class=\"ds-outlook\">观察</span><span class=\"ds-outlook ds-stronger\">逻辑增强</span><span class=\"ds-outlook ds-weaker\">逻辑减弱</span></div>",
+      "css": ".ds-outlooks{display:flex;gap:12px;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;}.ds-outlook{background:#e3e9f4;color:#4d5c73;padding:3px 7px;border-radius:4px;font-size:10px}.ds-stronger{background:#e9e4f6;color:#674598}.ds-weaker{background:#f2e5d4;color:#7f551c}"
+    },
+    {
+      "name": "研究面板",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "正文容器使用平面白底及细边框。",
+      "html": "<section class=\"ds-panel\"><div class=\"ds-panel-heading\"><h2>个股资金结构</h2><span>净流入 · 元</span></div><div class=\"ds-panel-body\">数字与标签在同一阅读网格中对齐。</div></section>",
+      "css": ".ds-panel{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;background:#fff;color:var(--ink,#1d293d);border:1px solid var(--border,#e0e5ed);border-radius:12px;overflow:hidden}.ds-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:20px 22px 15px}.ds-panel-heading h2{margin:0;font-size:16px;font-weight:650;line-height:1.4}.ds-panel-heading span{font-size:11px;color:var(--muted,#637086)}.ds-panel-body{padding:2px 22px 22px;font-size:12px}"
+    },
+    {
+      "name": "研究标签页",
+      "kind": "nav",
+      "description": "下划线标记所处研究视角。",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"个股研究\"><button role=\"tab\" aria-selected=\"true\">行情与资金</button><button role=\"tab\" aria-selected=\"false\">基本面</button><button role=\"tab\" aria-selected=\"false\">研究记录</button></div>",
+      "css": ".ds-tabs{display:flex;gap:26px;border-bottom:1px solid #cfd8e6;font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;}.ds-tabs button{font:inherit;border:0;background:none;display:flex;align-items:center;gap:7px;padding:12px 2px 13px;color:var(--muted,#637086);position:relative;font-size:13px;font-weight:550;cursor:pointer}.ds-tabs button[aria-selected=true]{color:var(--accent,#385ac0)}.ds-tabs button[aria-selected=true]:after{content:\"\";position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--accent,#385ac0)}.ds-tabs button:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}"
+    },
+    {
+      "name": "数据快照",
+      "kind": "custom",
+      "description": "研究记录附带可展开的当时证据。",
+      "html": "<details class=\"ds-snapshot\"><summary>当时的数据快照</summary><dl><div><dt>股价 / 涨跌幅</dt><dd>11.76 / +2.26%</dd></div><div><dt>财报截至</dt><dd>2026-09-30</dd></div></dl></details>",
+      "css": ".ds-snapshot{font-family:-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;line-height:1.55;font-size:11px;color:var(--muted,#637086);border:1px solid #d7deea;border-radius:6px;padding:10px 12px;font-variant-numeric:tabular-nums}.ds-snapshot summary{cursor:pointer}.ds-snapshot summary:focus-visible{outline:2px solid var(--focus,#6489e3);outline-offset:3px}.ds-snapshot dl{margin:13px 0 0}.ds-snapshot dl>div{display:flex;justify-content:space-between;gap:10px;margin-top:6px}.ds-snapshot dd{margin:0;color:var(--ink,#1d293d)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "投资委员会审阅材料",
+    "overview": "以投资委员会审阅材料为视觉参照：蓝墨色导航提供稳定定位，白色正文承载图表、财报与笔记，淡蓝紫色只标出研究入口和判断状态。数字列齐整，边界轻，信息密度适合长期查阅。\n\n中文功能文字使用系统无衬线字体，价格与正文通过字号和字重分层；它是研究工作界面，没有独立的展示字体或装饰性图片。A 股红涨绿跌是数据语义，蓝色是操作与选择语义。所有已实现画面由代码、文字和 SVG 构成。",
+    "keyCharacteristics": [
+      "蓝墨色固定导航与浅色阅读区域。",
+      "表格右对齐数字，全文使用等宽数字特性。",
+      "白色平面容器、细分隔线和克制的圆角。",
+      "来源、数据时点与旧数据反馈保留在相应内容附近。",
+      "桌面分栏，手机顺序阅读；研究记录与当时快照相邻。"
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Color Rule",
+        "body": "蓝色用于操作、选择和价格曲线；红绿表达数值方向。研究逻辑增强与减弱使用紫色、棕色标签，避免与当日涨跌混淆。",
+        "section": "colors"
+      },
+      {
+        "name": "The Aligned Evidence Rule",
+        "body": "数值使用 tabular-nums；表格名称列左对齐、数值列右对齐，空值保留破折号。",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Reading Surface Rule",
+        "body": "正文容器以底色和细边框建立层级；仅选中的区间按钮与浮动状态通知使用阴影。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 用蓝色表示可操作项与当前选择，沿用红涨绿跌及带符号的数值。",
+      "**Do** 把来源与时间作为证据展示；手机保留来源链接，并将资金表的时间放在层级名称下。",
+      "**Do** 沿用白色面板、细分隔线、数字列对齐及现有圆角层级。",
+      "**Do** 为表单保留可见标签、清晰占位文字、错误重试入口和键盘焦点。",
+      "**Do** 让研究正文自然换行；财报宽表在自身区域横向滚动。"
+    ],
+    "donts": [
+      "**Don't** 用红绿表达研究观点增强或减弱，也不要把数据源的资金分类当作机构持仓。",
+      "**Don't** 为普通正文面板添加悬浮阴影、装饰背景图或多余的副标题。",
+      "**Don't** 在手机隐藏数据来源或时点以节省空间。",
+      "**Don't** 将占位文字调得比 muted 更浅，或用占位文字替代字段标签。",
+      "**Don't** 将当前少数紧凑辅助文字的 9–10px 尺寸推广为新界面的默认阅读字号。"
+    ]
+  }
+}

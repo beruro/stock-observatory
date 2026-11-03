@@ -1,0 +1,10 @@
+export type Quote = { code:string; secid:string; name:string; price:number|null; change:number|null; amount:number|null; volume:number|null; high:number|null; low:number|null; open:number|null; previous:number|null; main:number|null; superLarge:number|null; large:number|null; medium:number|null; small:number|null; mainRatio:number|null; turnover:number|null; timestamp:number|null };
+export type Bar = {date:string;open:number;close:number;high:number;low:number;volume:number;amount:number};
+export type Quarter = {period:string;published:string;revenue:number|null;profit:number|null;deducted:number|null;cash:number|null;grossMargin:number|null};
+export type Fundamentals = {name:string;sectorCode:string|null;sectorName:string|null;quarters:Quarter[];latest:Quarter;debtRatio:number|null;revenueYoY:number|null};
+export type Announcement={id:string;title:string;date:string;url:string};
+export type Section<T>={data:T|null;fetchedAt:string;error:string|null;source:string;stale?:boolean};
+export type MarketPacket={code:string;requestedAt:string;quotes:Section<Quote[]>;history:Section<Bar[]>;fundamentals:Section<Fundamentals>;announcements:Section<Announcement[]>;sectorId:string|null};
+export type Watch={code:string;name:string;createdAt:string};
+export type Snapshot={code:string;name:string;capturedAt:string;quote:Quote|null;sector:Quote|null;market:Quote[];financialPeriod:string|null;source:string};
+export type ResearchNote={id:string;code:string;title:string;body:string;outlook:string;sourceUrl:string;snapshot:Snapshot;createdAt:string;updatedAt:string};
