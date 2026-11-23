@@ -1,3 +1,4 @@
+> Updated via 林少 Connector E2E
 # 股票研究台
 
 [打开网站](https://beruro.github.io/stock-observatory/)
